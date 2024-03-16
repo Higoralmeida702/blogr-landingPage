@@ -1,0 +1,42 @@
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    color: rgba(39, 39, 197, 0.616);
+}
+
+.organizacaoConteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    align-items: center;
+    justify-content: center; 
+    margin-left: 200px;
+}
+
+.conteudoDescricao {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 600px;
+}
+.conteudoDescricao h1{
+    color: rgba(39, 39, 197, 0.616);
+}
+
+.conteudoDescricao p{
+    color: hsl(207, 13%, 34%);
+}
+
+.segundaDescricao {
+    margin-top: 50px;
+}
+
+.terceiroConteudo img {
+    position: relative;
+    width: 100%;
+    right: 100px;
+}
+.terceiroConteudo {
+    margin-top: 100px;
+}
